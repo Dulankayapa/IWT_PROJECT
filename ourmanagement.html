@@ -7,86 +7,117 @@
 <style>
     body {
         background-color: #f2f2f2;
+        font-family:serif;
+        background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+            text-align: center;
     }
+    ::-webkit-scrollbar {
+            width: 1em;
+        }
 
-    h1 {
-        color: #000000;
-        ;
-    }
-    section{
-        background-color: #ffffff;
-      
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(65, 9, 77, 0.884);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: rgb(88, 12, 77);
+            border-radius: 8px;
+            outline: 1px solid rgb(0, 0, 0);
+        }
         
-    }
-    .page-title {
-        background-color: #ffffff;
-        padding-top: 90px;
-        padding-bottom: 50px;
-        text-align:center;
-    }
+        .shadow {
+            text-shadow: 3px 2px 1px #030303;
+        }
+        
+        .imgbox-container {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 50px;
+            width: 100%;
+            overflow-x: scroll;
+        }
+        .imgbox {
+            display: flex;
+            justify-content: left;
+            justify-items: left;
+            flex-direction: column;
+            margin: 30px;
+            background-color: #e2d1d1;
+            border-radius: 7px;
+            box-shadow: 2px 2px 3px #1b1b1b;
+            padding: 8px;
+        }
 
-    img {}
+        .imgbox:hover {
+            transform: scale(1.1);
 
-    .page-containor {
-        background-color: #ffffff;
-        margin: 150px auto;
-        width: 80%;
-        padding: 20px;
-        border: none
-    }
+            transition: transform 1s;
 
-    #main-content {
-        text-align: center;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+        }
 
-    .container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+        .imgbox img {
+            width: 250px;
+            margin-top: 10px;
+            border-radius: 7px;
+            max-height: 250px;
+        }
 
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-    @meadia(max-width:767.98px)
-    .page-title .col-12{
-        padding-left 35px;
-        padding-right: 35px;
-    }
+        .imgbox a {
+            font-size: 25px;
+            color: #300021;
+            text-decoration: none;
+        }
 
-    .col-12 {
-        -webkit-box-flex: 0;
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+        .imgbox:hover a {
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .imgbox-container {
+                flex-direction: column;
+
+            }
+
+            .imgbox img {
+                width: 300px;
+            }
+
+            .imgbox {
+                margin: 5px;
+            }
+
+            .imgbox a {
+                font-size: 20px;
+            }
+        }
+
+
 </style>
 
 <body>
-    <div class="page-containor" id="main-content">
-        <section class="page-title">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12"></div>
-                    <div>
-                        <!--
-                        <p>
-                            <a home link>
-                    -->
-                        <p> Our Management Team</p>
-                    </div>
+    <div>
+        <div style="height: 100vh; width:100vw ;display: flex;flex-direction: column; margin-top: 10px;">
+<h1 style="font-size: 55px; color: #6b1e53;">
+    Our Management Team
+</h1>
+<p style="font-size:30px;">
+     This is Our Management Team.We will help with any issue <br> and help to have a better experience with our service.<br>
+    contact us for any issue.
 
-                </div>
-                <div class="col-12"></div>
+</p>
+        </div>
+        <div>
 
-            </div>
+        </div>
 
-        </section>
+    
     </div>
 
 </body>
