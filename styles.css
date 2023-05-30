@@ -1,0 +1,84 @@
+body {
+    background-color: #f2f2f2;
+    font-family: serif;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: .3em;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(65, 9, 77, 0.884);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 12, 77);
+    border-radius: 8px;
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+.shadow {
+    text-shadow: 3px 2px 1px #030303;
+}
+
+.imgbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #e2d1d1;
+    border-radius: 7px;
+    box-shadow: 2px 2px 3px #1b1b1b;
+    padding: 8px;
+}
+
+.imgbox:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.imgbox img {
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 7px;
+    max-height: 250px;
+}
+
+.imgbox a {
+    font-size: 25px;
+    color: #300021;
+    text-decoration: none;
+}
+
+.imgbox:hover a {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgbox-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .imgbox {
+        margin: 15px;
+    }
+}
