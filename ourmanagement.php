@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width= device-width, initial-scale=1.0">
     <title>Identity Issuing Service.</title>  
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <p>CEO of the company</p>
         </div>
         <div class="imgbox">
-            <img src="https://tse1.mm.bing.net/th?id=OIP.QjynegEfQVPq5kIEuX9fWQHaFj&pid=Api&P=0&h=180" alt="ceo">
+            <img src="https://i.pinimg.com/736x/c5/14/6e/c5146eabdc8364a544e91af43b9ca371.jpg" alt="ceo">
             <a >CEO</a>
             <p>CEO of the company</p>
         </div>

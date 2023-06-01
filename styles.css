@@ -57,6 +57,7 @@ body {
 }
 
 .imgbox img {
+    height: 190px;
     width: 250px;
     margin-top: 10px;
     border-radius: 7px;
