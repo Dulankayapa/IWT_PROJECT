@@ -1,13 +1,21 @@
 body {
-    background-color: #f2f2f2;
+    background-image: linear-gradient(to bottom, rgba(185, 192, 151, 0), rgb(248, 188, 99));
     font-family: serif;
+    
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
     text-align: center;
+    
+}
+h1{
+    font-size: 55px;
+     color: #4f0d3a;
+     font: size 45px; ;
+
 }
 
 ::-webkit-scrollbar {
@@ -37,6 +45,7 @@ body {
     margin-top: 50px;
     width: 80%;
     margin: auto;
+    
 }
 
 .imgbox {
@@ -45,10 +54,12 @@ body {
     justify-items: left;
     flex-direction: column;
     margin: 30px;
-    background-color: #e2d1d1;
+    background-color: #ededed;
     border-radius: 7px;
-    box-shadow: 2px 2px 3px #1b1b1b;
-    padding: 8px;
+    box-shadow: 2px 2px 3px #5a2a02;
+    padding: 7px;
+    height: 355.4px;
+  
 }
 
 .imgbox:hover {
@@ -62,16 +73,23 @@ body {
     margin-top: 10px;
     border-radius: 7px;
     max-height: 250px;
+    padding-bottom: 10px;
 }
 
-.imgbox a {
+.imgbox a{
+    font-weight: bold;
+}
+.imgbox a , .imgbox p {
     font-size: 25px;
     color: #300021;
     text-decoration: none;
+    
 }
 
+
 .imgbox:hover a {
-    text-decoration: underline;
+    text-decoration: none;
+   
 }
 
 @media only screen and (max-width: 600px) {

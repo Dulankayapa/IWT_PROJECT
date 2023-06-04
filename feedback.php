@@ -34,17 +34,17 @@ if (isset($_POST['submit-feedback'])) {
 <body>
     <div class="container">
         <form method="post" action="<?php htmlspecialchars($_SERVER['PHP_SELF']) ?>">
-            <div class="form-group">
-                <label style="font-size:30px; text-align:center;" for="feedback">Feed Back</label>
+            <div >
+                <label style="font-size:40px; text-align:center; padding-top:15px ;" for="feedback">Feed Back</label>
 
                 <label for="applicantid">Applicant ID</label>
                 <input type="text" class="form-control" id="applicantid" name="applicantid"
                     placeholder="Enter applicant ID">
             </div>
-            <div class="form-group" id="rating"
-                style="display:flex; flex-direction: row; justify-content: space-between;"></div>
+            <div id="rating"
+                style="display:flex; flex-direction: row; justify-content: space-evenly;"></div>
             <input type="number" id="rate" name="rate" hidden>
-            <div class="form-group">
+            <div>
                 <label for="message">Message</label>
                 <textarea class="form-control" id="message" rows="10" name="message"
                     placeholder="Enter message"></textarea>
