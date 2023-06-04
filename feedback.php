@@ -28,7 +28,7 @@ if (isset($_POST['submit-feedback'])) {
 <html>
 
 <head>
-     <link rel ="stylesheet"  href="styles1.css?v=1">
+     <link rel ="stylesheet"  href="stylesf.css?v=1">
 </head>
 
 <body>
