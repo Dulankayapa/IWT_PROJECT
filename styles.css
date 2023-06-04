@@ -14,7 +14,8 @@ body {
 h1{
     font-size: 55px;
      color: #4f0d3a;
-     font: size 45px; ;
+     font: size 45px; 
+   text-shadow: 3px 2px 1px #ffffff;
 
 }
 
