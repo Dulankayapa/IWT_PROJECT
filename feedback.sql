@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 CREATE TABLE Feedback
 (
 	FeedbackID  int not null AUTO_INCREMENT,
