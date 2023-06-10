@@ -49,7 +49,7 @@ if (isset($_POST['submit-feedback'])) {
                 <textarea class="form-control" id="message" rows="5" name="message"
                     placeholder="Enter message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" name="submit-feedback">Submit</button>
+            <button type="submit" name="submit-feedback">Submit</button>
         </form>
         <!--click star javascript-->
         <script>
